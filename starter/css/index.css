@@ -53,3 +53,86 @@ section {
 section h2 {
   font-size: 50px;
 }
+
+
+/* Navigation section */
+
+.navbar {
+  padding-top: 30px;
+}
+  
+
+/* Hero section */
+
+.masthead {
+  background-image: url("../images/bg-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -80px !important;
+  height: 1080px;
+}
+
+.hero-row {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.device-container {
+  text-align: center;
+}
+
+#hero-image {
+  max-width: 386px;
+  max-height: 686px;
+  margin-top: 110px;
+}
+
+.hero-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 724px;
+  height: 477px;
+  margin-top: 200px;
+}
+
+.hero-text h1 {
+  color: #FFF;
+  font-family: Catamaran;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 102.5%; /* 69.7px */
+}
+
+
+.masthead {
+  margin-top: 50px;
+}
+
+
+/* Download section */
+
+.download {
+  background: #FDC949;
+}
+
+.badges {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* Media queries */
+
+@media screen and (max-width: 1250px) {
+  .masthead {
+    height: auto; /* adjust as needed */
+    margin-top: -200px !important;
+  }
+
+
+}

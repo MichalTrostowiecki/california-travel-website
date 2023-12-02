@@ -60,6 +60,17 @@ section h2 {
 .navbar {
   padding-top: 30px;
 }
+
+.nav-link {
+  color: #FFF;
+text-align: center;
+font-family: Catamaran;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.63px;
+}
   
 
 /* Hero section */
@@ -68,7 +79,7 @@ section h2 {
   background-image: url("../images/bg-img.png");
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -80px !important;
+  margin-top: -90px !important;
   height: 1080px;
 }
 
@@ -135,11 +146,45 @@ section h2 {
   border-radius: 267px;
   max-width: 335px;
   max-height: 335px;
-  
+}
+
+/* Call to Action section */
+
+.signup-section {
+  background: url("../images/sf.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subscribe-text {
+  margin-bottom: 40px;
+}
+
+.subscribe-btn {
+  margin-left: 10px;
+  border-radius: 30px;
+  width: 200px;
+}
+
+.singup-form {
+  height: 70px;
 }
 
 
+/* Contact section  */
 
+ .contact h4, .contact p {
+  color: black;
+  font-size: 22px;
+  margin: 0;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 265px;
+}
 
 
 

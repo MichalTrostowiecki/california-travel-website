@@ -124,6 +124,24 @@ section h2 {
   justify-content: center;
 }
 
+/* Testimonials Section */
+
+.card {
+  border: none;
+}
+
+
+.card img {
+  border-radius: 267px;
+  max-width: 335px;
+  max-height: 335px;
+  
+}
+
+
+
+
+
 
 
 /* Media queries */

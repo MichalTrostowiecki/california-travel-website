@@ -304,4 +304,8 @@ letter-spacing: 0.63px;
   .badges img {
     width: 80vw;
   }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
 }

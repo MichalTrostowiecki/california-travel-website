@@ -232,3 +232,76 @@ letter-spacing: 0.63px;
 
 
 /* Media queries */
+
+@media only screen and (max-width: 1400px) {
+
+ 
+    .masthead {
+      margin-top: -250px !important;
+      height: auto;
+    }
+
+
+    #hero-image {
+      margin-bottom: 50px;
+      margin-top: 50px;
+      width: 50vw;      
+    }
+
+    .hero-row {
+      justify-content: space-between;
+    }
+
+    .hero-text {
+      justify-content: space-around;
+      width: 45vw;
+      height: auto;
+      margin-top: 250px;
+    }
+
+    .hero-img-container {
+      margin-top: 150px;
+    }
+
+
+    #hero-image {
+      max-width: 300px;
+      height: auto;
+      margin-top: 110px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+  .hero-text {
+    padding: 15px !important;
+    width: 450px;
+  }
+
+  .hero-text h1 {
+    text-wrap: wrap;
+    font-size: 3.5rem;
+  }
+
+  .hero-row {
+    justify-content: center;
+  }
+  
+  #hero-image {
+    margin-top: 0;
+    width: 50vw;
+  }
+
+  .hero-img-container {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  #hero-image {
+    width: 50vw;
+  }
+
+  .badges img {
+    width: 80vw;
+  }
+}
